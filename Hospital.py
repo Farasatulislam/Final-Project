@@ -4,7 +4,9 @@ import datetime
 x=datetime.datetime.now()
 st.write(x.strftime('%d-%b-%Y'))
 
+# image example
 import streamlit as st
+from PIL import Image
 
 # Define functions for each page
 def page_home():
@@ -26,16 +28,16 @@ def main():
 
     if page == "Home":
         page_home()
-
+       
         # Title
-        st.title("Hospital Management System")
-        st.write('Expert in Medical Services')
+        st.title("Display Image Example")
         
         # Load image
-        image = Image.open("hms.jpg")
+        image = Image.open("images.png")
         
         # Display image
         st.image(image, caption='Example Image', use_column_width=True)
+
     elif page == "About":
         page_about()
     elif page == "Contact":
