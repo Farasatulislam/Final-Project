@@ -45,20 +45,6 @@ def main():
 if __name__ == "__main__":
     main()
  
-# image example
-import streamlit as st
-from PIL import Image
-
-# Title
-st.title("Hospital Management System")
-st.write('Expert in Medical Services')
-
-# Load image
-image = Image.open("hms.jpg")
-
-# Display image
-st.image(image, caption='Example Image', use_column_width=True)
-
 
 st.write('A hospital management system was introduced with the cause of helping hospitals speed up their processes.')
 st.write('What is Hospital Management System (HMS):')
