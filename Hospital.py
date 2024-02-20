@@ -26,6 +26,16 @@ def main():
 
     if page == "Home":
         page_home()
+
+        # Title
+        st.title("Hospital Management System")
+        st.write('Expert in Medical Services')
+        
+        # Load image
+        image = Image.open("hms.jpg")
+        
+        # Display image
+        st.image(image, caption='Example Image', use_column_width=True)
     elif page == "About":
         page_about()
     elif page == "Contact":
