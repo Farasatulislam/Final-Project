@@ -30,10 +30,10 @@ def main():
         page_home()
        
         # Title
-        st.title("Display Image Example")
+        st.title("Hospital Managment System")
         
         # Load image
-        image = Image.open("images.png")
+        image = Image.open("hms.jpg")
         
         # Display image
         st.image(image, caption='Example Image', use_column_width=True)
