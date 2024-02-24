@@ -49,11 +49,11 @@ with col1:
         navigate('home')
 
 with col2:
-    if st.button("About"):
+    if st.button("About Us"):
         navigate('about')
 
 with col3:
-    if st.button("Contact"):
+    if st.button("Contact Us"):
         navigate('contact')
 
 with col4:
