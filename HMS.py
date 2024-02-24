@@ -7,7 +7,7 @@ import streamlit as st
 st.header("Hospital Managment System")
 st.write('Expert in Medical Services:heartbeat:')
 
-# Network:3
+# Network:3(a)
 # Navigation bar on top
 # Function definitions for different pages
 def render_home():
@@ -34,7 +34,7 @@ def navigate(page):
 # Layout for the top navigation bar using columns
 col1, col2, col3, col4 = st.columns(4)
 
-    # Network:4
+# Network:4
 # Divider b/w header & body
 # Simple HTML to create a colored line
 rainbow_html = """
@@ -42,7 +42,7 @@ rainbow_html = """
 </div>
 """
 st.markdown(rainbow_html, unsafe_allow_html=True)
-
+#Network:3(b)
 with col1:
     # Use the button's "on_click" to change the page state
     if st.button("Home"):
